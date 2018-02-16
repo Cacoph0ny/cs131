@@ -1,0 +1,1 @@
+hw01_bmi.py is  a program that takes two variables from the user to calculate the bmi from the inputs and print the result.
