@@ -3,10 +3,12 @@
 # hw01_age.py
 # 2018 - 02 - 14
 # Created the if elif chain
+# 2018 - 02 - 15
+# Fixed minor issues
 ##
 
 def main():
-    packageWeight=float(input("Package weight in pound:\t"))
+    packageWeight=float(input("Package weight in pounds:\t"))
     if packageWeight <= 2:
         packagePrice=packageWeight*1.5
         print("It would be %.2f to ship that package" %(packagePrice))
