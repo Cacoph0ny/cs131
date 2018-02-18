@@ -1,0 +1,19 @@
+Script started on 2018-02-18 15:36:39-0800
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m03:36 PM[0m[00;30m >[0m[00;37m [0mpython21[K[K34[K prob
+prob1.py  prob2.py  
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m03:36 PM[0m[00;30m >[0m[00;37m [0mpython3 prob1.py 
+Package weight in pounds:	7834 
+It would be 3719.25 to ship the package
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m03:36 PM[0m[00;30m >[0m[00;37m [0mpython3 prob1.py 
+Package weight in pounds:	1
+It would be 1.50 to ship the package
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m03:37 PM[0m[00;30m >[0m[00;37m [0mpython3 prob1.py 
+Package weight in pounds:	3
+It would be 9.00 to ship the package
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m03:37 PM[0m[00;30m >[0m[00;37m [0mpython3 prob1.py 
+Package weight in pounds:	7.43 5
+It would be 29.80 to ship the package
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m03:37 PM[0m[00;30m >[0m[00;37m [0mexit
+exit
+
+Script done on 2018-02-18 15:37:37-0800
