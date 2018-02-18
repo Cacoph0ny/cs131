@@ -1,0 +1,1 @@
+prob2.py takes a user input amount of seconds and breaks it down into days hour minutes seconds and prints.

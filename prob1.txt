@@ -1,0 +1,1 @@
+prob1.py is a simple program that takes a user input to and uses this in a elif block then calculates and outputs the answers.

@@ -1,0 +1,17 @@
+Script started on 2018-02-15 17:23:52-0800
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m05:23 PM[0m[00;30m >[0m[00;37m [0mexitpython3 hw01_age.py exit[Kpython3 hw01_age.py 
+Enter your age in years:	13
+You are a teenager.
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m05:23 PM[0m[00;30m >[0m[00;37m [0mpython3 hw01_age.py 
+Enter your age in years:	1
+You are an infant.
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m05:24 PM[0m[00;30m >[0m[00;37m [0mpython3 hw01_age.py exit[Kpython3 hw01_age.py 
+Enter your age in years:	7
+You are a child.
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m05:24 PM[0m[00;30m >[0m[00;37m [0mpython3 hw01_age.py 
+Enter your age in years:	6 63
+You are an adult.
+[00;30mlang[0m[00;37m [0m[00;30mcs131[0m[00;37m [0m[00;32m05:24 PM[0m[00;30m >[0m[00;37m [0mexit
+exit
+
+Script done on 2018-02-15 17:24:16-0800
