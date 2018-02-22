@@ -1,0 +1,1 @@
+lab3_interactive.py is a program that uses a while loop to take user inputs till the user inputs -1 then it outputs the second largest number the user entered.

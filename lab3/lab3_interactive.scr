@@ -1,0 +1,20 @@
+Script started on Wed, Feb 21, 2018  6:53:53 PM
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab3
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab3[0m
+$ python lab3_interactive.py 
+Enter a postive number (put -1 to exit):	45
+Enter a postive number (put -1 to exit):	84
+Enter a postive number (put -1 to exit):	389
+Enter a postive number (put -1 to exit):	43920
+Enter a postive number (put -1 to exit):	5940
+Enter a postive number (put -1 to exit):	2233
+Enter a postive number (put -1 to exit):	458403
+Enter a postive number (put -1 to exit):	450
+Enter a postive number (put -1 to exit):	-1
+The second biggest number is 43920
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab3
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab3[0m
+$ ei[Kxit
+exit
+
+Script done on Wed, Feb 21, 2018  6:54:30 PM
