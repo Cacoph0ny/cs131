@@ -1,0 +1,1 @@
+rabbit.py is a simulation of rabbit and wolf population as well as grass area, the starting variables are taken from the user. The program uses this data to calculate and print a table showing the year and the population and area. Also the program records the max and min of the rabbit and wolf populations and prints at the end.
