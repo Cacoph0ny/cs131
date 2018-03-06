@@ -1,0 +1,48 @@
+Script started on Mon, Mar  5, 2018  6:29:08 PM
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/ProgrammingAssessment
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/ProgrammingAssessment[0m
+$ exit[C[Cpython creditcard.py 
+Enter the credit limit: 5000
+Enter the card balance: 3000
+Enter APR: 16.99
+Enter monthly payment: 300
+Month	 Balance	 Interest	 Payment	 New Balance
+1	 3000.00	   42.48	  300.00	 2742.47
+2	 2742.47	   38.83	  300.00	 2481.30
+3	 2481.30	   35.13	  300.00	 2216.44
+4	 2216.44	   31.38	  300.00	 1947.82
+5	 1947.82	   27.58	  300.00	 1675.39
+6	 1675.39	   23.72	  300.00	 1399.11
+7	 1399.11	   19.81	  300.00	 1118.92
+8	 1118.92	   15.84	  300.00	  834.77
+9	  834.77	   11.82	  300.00	  546.58
+10	  546.58	    7.74	  300.00	  254.32
+11	  254.32	    3.60	  257.92	    0.00
+It will take $3257.92 over 11 month(s) to pay off this debt.
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/ProgrammingAssessment
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/ProgrammingAssessment[0m
+$ python creditcard.py 
+Enter the credit limit: 5000
+Enter the card balance: 3000
+Enter APR: 19.99
+Enter monthly payment: 300
+Month	 Balance	 Interest	 Payment	 New Balance
+1	 3000.00	   49.97	  300.00	 2749.97
+2	 2749.97	   45.81	  300.00	 2495.79
+3	 2495.79	   41.58	  300.00	 2237.36
+4	 2237.36	   37.27	  300.00	 1974.63
+5	 1974.63	   32.89	  300.00	 1707.53
+6	 1707.53	   28.44	  300.00	 1435.97
+7	 1435.97	   23.92	  300.00	 1159.89
+8	 1159.89	   19.32	  300.00	  879.21
+9	  879.21	   14.65	  300.00	  593.86
+10	  593.86	    9.89	  300.00	  303.75
+11	  303.75	    5.06	  300.00	    8.81
+12	    8.81	    0.15	    8.96	    0.00
+It will take $3308.96 over 12 month(s) to pay off this debt.
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/ProgrammingAssessment
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/ProgrammingAssessment[0m
+$ exit
+exit
+
+Script done on Mon, Mar  5, 2018  6:29:43 PM

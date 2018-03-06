@@ -1,0 +1,1 @@
+creditcard.py is a program that takes multiple user inputs then uses a while loop to figure out how long it will take for one of the inputs to reach zero.
