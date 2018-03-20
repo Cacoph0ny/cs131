@@ -3,6 +3,8 @@
 # hw03.py - Number to barcode
 # 12 - 03 - 18
 # Started work - tdh
+# 19 - 03 - 18
+# finishing printDigit - tdh
 ##
 
 def printDigit(barCode):
@@ -11,12 +13,11 @@ def printDigit(barCode):
     barCode = barCode.replace('|','1')
     for ii in range(0,5):
         tempNumber=barCode[(ii*5):(ii*5+5)]
-        tempNumber=((tempNumber[0])*7+(tempNumber[1])*4+(tempNumber[2])*2+(tempNumber[3])*1+(tempNumber[4])*0)
-        print(tempNumber , end='')
-        break
+        tempNumber=tempNumber[0]*7+tempNumber[1]*4+(tempNumber[2]*2+tempNumber[3]*1+tempNumber[4]*0
+        print(tempNumber, end="")
 
 def printBarCode(zipCode):
-    break
+    return
 
 def main():
     while True:
