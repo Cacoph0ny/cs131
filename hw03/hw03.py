@@ -10,11 +10,13 @@ def printDigit(barCode):
     barCode = barCode.replace(':','0')
     barCode = barCode.replace('|','1')
     for ii in range(0,5):
-        
-    print(barCode)
+        tempNumber=barCode[(ii*5):(ii*5+5)]
+        tempNumber=((tempNumber[0])*7+(tempNumber[1])*4+(tempNumber[2])*2+(tempNumber[3])*1+(tempNumber[4])*0)
+        print(tempNumber , end='')
+        break
 
 def printBarCode(zipCode):
-
+    break
 
 def main():
     while True:
