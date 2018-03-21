@@ -1,0 +1,32 @@
+Script started on Tue, Mar 20, 2018  4:11:04 PM
+]0;/cygdrive/d/t1nk3/Documents/cs131/lab5
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/lab5[0m
+$ date
+Tue, Mar 20, 2018  4:11:06 PM
+]0;/cygdrive/d/t1nk3/Documents/cs131/lab5
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/lab5[0m
+$ ls-[K -1[Kl
+total 5
+-rwx------+ 1 t1nk3 t1nk3 2146 Mar 20 15:02 lab05.py
+-rw-r--r--+ 1 t1nk3 t1nk3    0 Mar 20 16:11 lab05.scr
+-rwx------+ 1 t1nk3 t1nk3   91 Mar 20 16:09 lab05.txt
+]0;/cygdrive/d/t1nk3/Documents/cs131/lab5
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/lab5[0m
+$ python lab05..[Kpy 
+Enter outer radius (r1): 6 7/2  .2
+Enter inner radius (r2): 3.2
+Enter the length (h):    6
+
+
+The thickness is:			 4.000000
+The volume of the pipe is:		 784.141526
+Surface area of the inner pipe:		 120.637158
+Surface area of the outer pipe:		 271.433605
+Surface area of the rings:		 130.690254
+The total surface area of the pipe:	 653.451272
+]0;/cygdrive/d/t1nk3/Documents/cs131/lab5
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/lab5[0m
+$ exit
+exit
+
+Script done on Tue, Mar 20, 2018  4:11:33 PM
