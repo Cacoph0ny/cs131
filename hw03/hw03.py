@@ -31,23 +31,21 @@ def printBarCode(zipCode):
             tempBar.append('01001')
         elif tempNumber == '7':
             tempBar.append('10001')
-        else:
-            tempNumber=int(tempNumber)
-            while tempNumber > 0:
-                tempNumb=tempNumber//7
-                tempBar.append(str(tempNumb))
-                tempNumber -= tempNumb * 7
-                tempNumber=tempNumber//4
-                tempBar.append(str(tempNumb))
-                tempNumber -= tempNumb * 4
-                tempNumber=tempNumber//2
-                tempBar.append(str(tempNumb))
-                tempNumber -= tempNumb * 2
-                tempNumber = tempNumber//1
-                tempBar.append(str(tempNumb))
-                tempNumber -= tempNumb * 1
+        elif tempNumber == '1':
+            tempBar.append('00011')
+        elif tempNumber == '3':
+            tempBar.append('00110')
+        elif tempNumber == '5':
+            tempBar.append('01010')
+        elif tempNumber == '6':
+            tempBar.append('01100')
+        elif tempNumber == '8':
+            tempBar.append('10010')
+        elif tempNumber == '9':
+            tempBar.append('10100')
+    tempBar.append('000111')
+    tempBar.insert(0,'1')
     newBar="".join(tempBar)
-    print(newBar)
     newBar = newBar.replace('0',':')
     newBar = newBar.replace('1','|')
     print(newBar)
