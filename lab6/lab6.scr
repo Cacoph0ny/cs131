@@ -1,0 +1,84 @@
+Script started on Wed, Mar 21, 2018  7:10:48 PM
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab6
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab6[0m
+$ python lab6.py 
+************************* 
+**  CS 131 Blackjack  **
+*************************
+Do you want to play? (y/n) y
+
+You got			1
+Your Score		0
+You got			4
+Your Score		5
+Draw again? (y/n) n
+Dealer got		3
+Dealer Score		3
+Dealer got		10
+Dealer Score		13
+Dealer got		1
+Dealer Score		14
+Dealer got		3
+Dealer Score		17
+Dealer Holds
+Dealer won with 17 points!
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab6
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab6[0m
+$ python lab6.py 
+************************* 
+**  CS 131 Blackjack  **
+*************************
+Do you want to play? (y/n) y
+
+You got			7
+Your Score		0
+You got an ACE! Do you want it high(10) or low(1)? high
+You got			10
+Your Score		17
+Draw again? (y/n) n
+Dealer got		1
+Dealer Score		1
+Dealer got		6
+Dealer Score		7
+Dealer got		7
+Dealer Score		14
+Dealer got		6
+Dealer Score		20
+Dealer Holds
+Dealer won with 20 points!
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab6
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab6[0m
+$ python lab6.py 
+************************* 
+**  CS 131 Blackjack  **
+*************************
+Do you want to play? (y/n) y
+
+You got			5
+Your Score		0
+You got			1
+Your Score		6
+Draw again? (y/n) y
+You got			1
+Your Score		7
+Draw again? (y/n) y
+You got			4
+Your Score		11
+Draw again? (y/n) y
+You got			8
+Your Score		19
+Draw again? (y/n) n
+Dealer got		10
+Dealer Score		10
+Dealer got		6
+Dealer Score		16
+Dealer got		9
+Dealer Score		25
+Dealer busted
+You won with 19 points!
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab6
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab6[0m
+$ exit
+exit
+
+Script done on Wed, Mar 21, 2018  7:11:20 PM

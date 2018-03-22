@@ -1,0 +1,1 @@
+lab6.py is a program that takes user inputs to run a blackjack game. The start runs the players turn twice for the first 2 cards, then takes inputs for the player till they bust or hold. As long as the player doesn't bust the turn goes to the dealer who draws till 17 or bust then holds the program then tests the scores to see if player won lost or got a draw.

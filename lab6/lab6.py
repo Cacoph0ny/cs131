@@ -10,7 +10,8 @@ import random
 startScore = 0
 
 def blackJackHeader():
-    print('*'*25, '\n**  CS 131 Blackjack  **\n','*'*25)
+    print('*'*25, '\n**  CS 131 Blackjack  **')
+    print('*'*25)
     if str(input('Do you want to play? (y/n) ')) == 'n':
         exit()
 
@@ -23,10 +24,10 @@ def blackJackStart():
 def drawCard():
     card=random.randint(1,11)
     if card == 11:
-        if str(input('You got an ACE! Do you want it high(10) or low(1)?')) == 'high':
+        if str(input('You got an ACE! Do you want it high(10) or low(1)? ')) == 'high':
             card = 10
             return card
-        elif str(input('You got an ACE! Do you want it high(10) or low(1)?')) == 'low':
+        elif str(input('You got an ACE! Do you want it high(10) or low(1)? ')) == 'low':
             card = 1
             return card
         else:
@@ -59,20 +60,23 @@ def dealerTurn(dealerScore):
         dealCard = drawCardDealer()
         if dealCard == 11:
             if (dealerScore+11) > 22:
-                dealerCard = 1
+                dealCard = 1
             else:
-                dealerCard = 10
-        if (dealerScore + dealerCard) > 21:
-            dealerScore += dealerCard
-            print('Dealer got\t\t%d\nDealer Score\t%d\nDealer busted' %(dealCard, dealerScore))
+                dealCard = 10
+        if (dealerScore + dealCard) > 21:
+            dealerScore += dealCard
+            print('Dealer got\t\t%d\nDealer Score\t\t%d\nDealer busted' %(dealCard, dealerScore))
             dealerScore = -1
         elif (dealerScore + dealCard) > 17:
-            dealerScore += dealerCard
-            print('Dealer got\t\t%d\nDealer Score\t%d\nDealer busted\nDealer Holds' %(dealerCard, dealerScore))
+            dealerScore += dealCard
+            print('Dealer got\t\t%d\nDealer Score\t\t%d\nDealer Holds' %(dealCard, dealerScore))
             return dealerScore
         else:
-            dealerScore += dealerCard
-            print('Dealer got\t\t%d\nDealer Score\t%d' %(dealerCard, dealerScore))
+            dealerScore += dealCard
+            print('Dealer got\t\t%d\nDealer Score\t\t%d' %(dealCard, dealerScore))
+            if dealerScore == 17:
+                print('Dealer Holds')
+                return dealerScore
     return dealerScore
 
 def whoWon(playerScore, dealerScore):
@@ -80,15 +84,18 @@ def whoWon(playerScore, dealerScore):
         print('You won with %d points!' %(playerScore))
     if dealerScore > playerScore:
         print('Dealer won with %d points!' %(dealerScore))
-    else:
+    elif playerScore == dealerScore:
         print('Tie with %d points!' %(playerScore))
 
 def main():
     blackJackHeader()
     playerScore=blackJackStart()
     player=playerTurn(playerScore)
-    dealerStart=0
-    dealer=dealerTurn(dealerStart)
-    whoWon(player, dealer)
+    if playerScore == -1:
+        print('Dealer won!')
+    else:
+        dealerStart=0
+        dealer=dealerTurn(dealerStart)
+        whoWon(player, dealer)
 
 main()
