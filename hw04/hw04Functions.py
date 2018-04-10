@@ -10,35 +10,36 @@ def telephoneName(phoneNum):
     dataLine = dataFile.readline()
     while True:
         if phoneNum in dataLine:
-            nameIs = dataLine.strip(',')
-            print(nameIs)
+            nameIs, sep, tail = dataLine.partition(', ')
+            print('Name is: %s' %(nameIs))
             break
         else:
             dataLine = dataFile.readline()
     dataFile.close()
-    return dataLine
+    return nameIs
 
 def nameSocial(name):
-#    dataFile = open('data2.txt','r')
-#    dataLine = dataFile.readline()
-#    #while True:
-#        if name in dataLine:
-#            print(type(dataLine))
-#    if dataLine == '':
-#        print('That name is not in the list.')
-#    else:
-#        print('SSN is: %s' %(dataLine))
-#    dataFile.close()
-    return 2
+    dataFile = open('data2.txt','r')
+    dataLine = dataFile.readline()
+    while True:
+        if name in dataLine:
+            nameIs, sep, tail  = dataLine.partition(', ')
+            print('SSN is: %s' %(tail))
+            break
+        else:
+            dataLine = dataFile.readline()
+    dataFile.close()
+    return tail
 
 def socialIncome(ssn):
     dataFile = open('data3.txt','r')
     dataLine = dataFile.readline()
-    while dataLine != '' and dataLine != ssn:
-        dataLine = dataFile.readline()
-    if dataLine == '':
-        print('SSN not found in list.')
-    else:
-        print('Income is: %s' %(dataLine))
+    while True:
+        if ssn in dataLine:
+            nameIs, sep, tail = dataLine.partion(', ')
+            print('Name is: %s' %(tail))
+            break
+        else:
+            dataLine = dataFile.readline()
     dataFile.close()
-    return dataLine
+    return tail
