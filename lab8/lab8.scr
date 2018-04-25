@@ -1,0 +1,46 @@
+Script started on Wed, Apr 25, 2018 12:32:34 PM
+]0;/cygdrive/d/t1nk3/Documents/cs131/lab8
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/lab8[0m
+$ exit[C[Cscript lab05.scr[C[Cexit[K[C[C[Kpython lab7[K8/[K.py
+You got			6 of spades
+Your Score		6
+Draw again? (y/n) y
+You got			9 of hearts
+Your Score		15
+Draw again? (y/n) y
+You drew 10 of spades
+You went over 21 and lose.
+Dealer got		7
+Dealer Score		7
+Dealer got		3
+Dealer Score		10
+Dealer got		7
+Dealer Score		17
+Dealer Holds
+Dealer won with 17 points!
+]0;/cygdrive/d/t1nk3/Documents/cs131/lab8
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/lab8[0m
+$ python lab8.py
+You got			4 of diamonds
+Your Score		4
+Draw again? (y/n) y
+You got			5 of spades
+Your Score		9
+Draw again? (y/n) y
+You got			jack of spades
+Your Score		19
+Draw again? (y/n) n
+Dealer got		10
+Dealer Score		10
+Dealer got		5
+Dealer Score		15
+Dealer got		1
+Dealer Score		16
+Dealer got		5
+Dealer Score		21
+Dealer Holds
+Dealer won with 21 points!
+$ exit
+exit
+
+Script done on Wed, Apr 25, 2018 12:33:16 PM
