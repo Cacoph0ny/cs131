@@ -1,0 +1,29 @@
+Script started on Mon, Apr  9, 2018  8:45:08 PM
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/hw04
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/hw04[0m
+$ exit[C[Ctar -cvzf lab06.tar.gz lab6.*[C[Cexit[K[C[C[Kpython hw04.py 
+Input phone number: 000-1234
+Name is: Luke
+SSN is: 000000003
+
+Income not found
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/hw04
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/hw04[0m
+$ python hw04.py 
+Input phone number: 555-1234
+Name is: Bob
+SSN not found
+Traceback (most recent call last):
+  File "hw04.py", line 16, in <module>
+    main()
+  File "hw04.py", line 14, in main
+    income = hw04Functions.socialIncome(ssn)
+  File "C:\Users\t1nk3\Documents\GitHub\cs131\hw04\hw04Functions.py", line 51, in socialIncome
+    elif ssn in dataLine:
+TypeError: 'in <string>' requires string as left operand, not NoneType
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/hw04
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/hw04[0m
+$ exit
+exit
+
+Script done on Mon, Apr  9, 2018  8:46:07 PM

@@ -1,0 +1,14 @@
+Script started on Wed, Apr 18, 2018  7:12:28 PM
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab7
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab7[0m
+$ python lab7.py 
+Input numbers with a space between each: 1 4 9 16
+Input numbers with a space between each: 4 7 9 9 11
+With lists a: [1, 4, 9, 16] and b: [4, 7, 9, 9, 11] 
+You would get: [1, 4, 4, 7, 9, 9, 9, 11, 16]
+]0;/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab7
+[32mt1nk3@LAPTOP-34OTB80N [33m/cygdrive/c/Users/t1nk3/Documents/GitHub/cs131/lab7[0m
+$ exit
+exit
+
+Script done on Wed, Apr 18, 2018  7:12:45 PM
