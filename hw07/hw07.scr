@@ -1,0 +1,33 @@
+Script started on Wed, May  9, 2018 11:49:18 AM
+]0;/cygdrive/d/t1nk3/Documents/cs131/hw07
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/hw07[0m
+$ python hw07main.py 
+Enter employee name: Tharin
+Enter employee number: 1234
+Enter employee shift (1 for day, 2 for night): 2
+Is the employee a supervisor(1) or worker(2): 1
+Enter employee salary: 120000
+Enter employee bonus: 5000
+Name:	Tharin
+ID:	1234
+Shift:	night
+Salary:	120000
+Bonus:	5000
+]0;/cygdrive/d/t1nk3/Documents/cs131/hw07
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/hw07[0m
+$ python hw07main.py 
+Enter employee name: Tharin
+Enter employee number: 431 21
+Enter employee shift (1 for day, 2 for night): 1
+Is the employee a supervisor(1) or worker(2): 2
+Enter employee pay rate: 15
+Name:	Tharin
+ID:	4321
+Shift:	day
+Pay:	15/hr
+]0;/cygdrive/d/t1nk3/Documents/cs131/hw07
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/hw07[0m
+$ exit
+exit
+
+Script done on Wed, May  9, 2018 11:49:50 AM

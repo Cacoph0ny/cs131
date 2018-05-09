@@ -44,7 +44,6 @@ def load_info(fileName):
         inputFile.close()
     except IOError:
         infoFile = {}
-
     return infoFile
 
 def menu1():
@@ -76,6 +75,7 @@ def add(info):
     phoneNumber = str(input('Enter phone number: '))
     addInfo = Information(name, address, age, phoneNumber)
     if name not in info:
+        info[name] = addInfo
         print('Info added')
     else:
         print('Info already existed')
