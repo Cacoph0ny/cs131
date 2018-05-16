@@ -8,13 +8,15 @@
 import final_p_maps
 
 class MasterOutput:
-    def __init__(self, data):
+    def __init__(self, data, data2):
         self.__data = data
+        self.__data2 = data2
     def printSteps(self):
         steps = int(input(""))
-        stepsList = ['LATLONG','STEPS','TOTALTIME','TOTALDISTANCE','ELEVATION']
+        stepsList = ['DIRECTIONS','TOTALTIME','TOTALDISTANCE','LATLONG','ELEVATION']
         for ii in range(0,steps):
             print(stepsList[ii])
+        return steps
     def printDir(self):
         directions = final_p_maps.printDir(self.__data)
         for ii in range(len(directions)):
@@ -26,3 +28,6 @@ class MasterOutput:
     def printDist(self):
         dist = final_p_maps.getDistance(self.__data)
         print(dist)
+    def printLatLng(self):
+        latLng = final_p_maps.getLatLong(self.__data2)
+        print(latLng)

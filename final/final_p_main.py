@@ -10,9 +10,10 @@ import final_p_maps
 
 def main():
     numberInputs = (int(input("")))-1
-    mainData = final_p_maps.cleanData(numberInputs)
-    Outputs = final_p_out.MasterOutput(mainData)
+    mainData, geoData = final_p_maps.cleanData(numberInputs)
+    Outputs = final_p_out.MasterOutput(mainData, geoData)
     Outputs.printDir()
     Outputs.printTime()
+    Outputs.printLatLng()
 
 main()

@@ -14,17 +14,23 @@ APIKEY = 'ukod0Gz3hFtCy0gQoDnhEVw80wEewGVb'
 APIURLBASE = 'http://www.mapquestapi.com/directions/v2/route?key='
 APIURLFROM = '&from='
 APIURLTO = '&to='
+GEOCODEURL = 'http://www.mapquestapi.com/geocoding/v1/batch?key='
+GEOCODEFILL = '&location='
+LATLONGURL = ''
+LATLONGFILL = '&shapeFormat=raw&latLngCollection='
 
-def buildUrl(key,base,urlfrom,to, inputs):
+def buildUrl(key,base,urlfrom,to, inputs, basegeo, geofill):
     userFrom = str(input(''))
     tempFrom = userFrom.replace(" ","+")
     fullUrl = '%s%s%s%s' %(base, key, urlfrom, tempFrom)
+    geoCodeUrl = '%s%s%s%s' %(basegeo, key, geofill, tempFrom)
     for ii in range(inputs):
         userTo = str(input(''))
         tempTo = userTo.replace(" ","+")
         fullUrl = '%s%s%s' %(fullUrl, to, tempTo)
+        geoCodeUrl = '%s%s%s' %(geoCodeUrl, geofill, tempTo)
     print('\n')
-    return fullUrl
+    return fullUrl, geoCodeUrl
 
 def dataFormat(URL):
     data = urlopen('%s' %(URL))
@@ -39,6 +45,17 @@ def printDir(dataMap):
             finalList.append(oo['narrative'])
     return finalList
 
+def getLatLong(geoData):
+    finalList = []
+    geoLat = geoData['results']
+    for ii in geoLat:
+        for oo in ii['locations']:
+            finalList.append(oo['latLng'])
+#            for pp in oo['latLng']:
+#                finalList.append(pp['lat'])
+#                finalList.append(pp['lng'])
+    return finalList
+
 def getDistance(dataMap):
     distance = dataMap['route']['distance']
     return distance
@@ -48,7 +65,9 @@ def getTime(dataMap):
     return time
 
 def cleanData(inputs):
-    urlFinal = buildUrl(APIKEY, APIURLBASE, APIURLFROM, APIURLTO, inputs)
+    urlFinal, geoCodeUrl = buildUrl(APIKEY, APIURLBASE, APIURLFROM, APIURLTO, inputs, GEOCODEURL, GEOCODEFILL)
     mapData = {}
     mapData = dataFormat(urlFinal)
-    return mapData
+    geoData = {}
+    geoData = dataFormat(geoCodeUrl)
+    return mapData, geoData
