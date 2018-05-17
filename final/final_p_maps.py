@@ -51,9 +51,6 @@ def getLatLong(geoData):
     for ii in geoLat:
         for oo in ii['locations']:
             finalList.append(oo['latLng'])
-#            for pp in oo['latLng']:
-#                finalList.append(pp['lat'])
-#                finalList.append(pp['lng'])
     return finalList
 
 def getDistance(dataMap):
