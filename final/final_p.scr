@@ -1,0 +1,62 @@
+Script started on Wed, May 16, 2018  8:38:03 PM
+]0;/cygdrive/d/t1nk3/Documents/cs131/final
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/final[0m
+$ exit[K[K[Ktar -cvzf hw07.tar.gz hw07*[C[C[9Phistory | grep tar[C[Ctar -cvzf hw07.tar.gz hw07*[C[Ce[K[Kpython final_p_main.py 
+3
+26 701 Fairview RD d, Costa Mesa, CA
+2920 Zoo Dr, San Diego, CA
+88 Fair Dr, Costa Mesa, CA
+
+
+4
+DIRECTIONS
+TOTALTIME
+TOTALDISTANCE
+LATLONG
+Start out going south on Fairview Rd toward Merrimac Way.
+Turn left onto Fair Dr.
+Stay straight to go onto Del Mar Ave.
+Turn left onto Newport Blvd.
+Merge onto CA-55 N/Costa Mesa Fwy N via the ramp on the left.
+Merge onto CA-73 S via EXIT 5A toward San Diego (Portions toll).
+Take I-5 S/San Diego Fwy S.
+Keep left to take I-805 S via EXIT 31.
+Merge onto CA-163 S via EXIT 20 toward Downtown.
+Take EXIT 2C toward University Ave.
+Turn slight right onto 6th Ave.
+Turn left onto Robinson Ave.
+Turn right onto Park Blvd.
+Turn right onto Zoo Dr.
+2920 ZOO DR is on the right.
+Start out going southeast on Zoo Dr.
+Turn left.
+Turn right onto Zoo Dr.
+Turn left onto Park Blvd.
+Turn left onto Robinson Ave.
+Turn right onto 10th Ave.
+Merge onto CA-163 N via the ramp on the left.
+Merge onto I-805 N via EXIT 7A toward Los Angeles.
+I-805 N becomes I-5 N/San Diego Fwy N.
+Keep right to take CA-73 N via EXIT 85A toward Long Beach (Portions toll).
+Merge onto CA-55 S/Costa Mesa Fwy S via EXIT 17B.
+Take EXIT 4 toward Del Mar Ave/Fair Dr.
+Merge onto Newport Blvd.
+Turn right onto Fair Dr.
+88 FAIR DR is on the right.
+
+Directions Courtesy of MapQuest; Map Data Copyright OpenStreetMapContributors.
+Time: 172 minutes
+Distance: 172.07 miles
+LATLONG
+33.67 N
+117.91 E
+32.74 N
+117.15 E
+33.66 N
+117.90 E
+]0;/cygdrive/d/t1nk3/Documents/cs131/final
+[32mt1nk3@DESKTOP-1ISJHT1 [33m/cygdrive/d/t1nk3/Documents/cs131/final[0m
+$ exit
+exit
+
+Script done on Wed, May 16, 2018  8:39:48 PM

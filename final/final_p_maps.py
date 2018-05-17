@@ -16,7 +16,7 @@ APIURLFROM = '&from='
 APIURLTO = '&to='
 GEOCODEURL = 'http://www.mapquestapi.com/geocoding/v1/batch?key='
 GEOCODEFILL = '&location='
-LATLONGURL = ''
+LATLONGURL = 'http://open.mapquestapi.com/elevation/v1/profile?key'
 LATLONGFILL = '&shapeFormat=raw&latLngCollection='
 
 def buildUrl(key,base,urlfrom,to, inputs, basegeo, geofill):
@@ -53,6 +53,29 @@ def getLatLong(geoData):
             finalList.append(oo['latLng'])
     return finalList
 
+def getElevationUrl(geoData, key, base, fill):
+    latLngList = getLatLong(geoData)
+    url = '%s%s%s' %(base, key, fill)
+    for ii in range(len(latLngList)):
+        temp1 = (str(latLngList[0]['lat']))
+        temp2 = (str(latLngList[0]['lng']))
+        temp3 = (str(latLngList[1]['lat']))
+        temp4 = (str(latLngList[1]['lng']))
+        url = '%s%s,%s,%s,%s' %(url, temp1, temp2, temp3, temp4)
+    return url
+
+def getElevationData(url):
+    data = urlopen('%s' %(url))
+    eleData = json.loads(data.read())
+    return eledata
+
+def getElevation(eleData):
+    finalList = []
+    elevation = eleData['elevationProfile']
+    for ii in elevation:
+        finalList.append(ii['height'])
+    return finalList
+
 def getDistance(dataMap):
     distance = dataMap['route']['distance']
     return distance
@@ -67,4 +90,7 @@ def cleanData(inputs):
     mapData = dataFormat(urlFinal)
     geoData = {}
     geoData = dataFormat(geoCodeUrl)
-    return mapData, geoData
+    urlEle = getElevationUrl(geoData, APIKEY, GEOCODEURL, GEOCODEFILL)
+    eleData = {}
+    eleData = dataFormat(urlEle)
+    return mapData, geoData, eleData
